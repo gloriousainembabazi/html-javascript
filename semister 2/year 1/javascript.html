@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change fontsize</title>
+</head>
+<body>
+    <P>QUESTION 1</P>
+    <P>(1) use javascript to change the font size of an element with id text</P>
+
+    <i id="text">am Ainembabazi Glorious a ugandan by nationality ,
+        aged 23 years and am pasueing a diploma in computer tecnlogy at WITU</i>
+    <p id="text">This is some text that will change size.</p>
+    <button onclick="changeFontSize()">Change Font Size</button>
+  
+    <script>
+      function changeFontSize() {
+        document.getElementById("text").style.fontSize = "24px";
+      }
+    </script>
+</html>
